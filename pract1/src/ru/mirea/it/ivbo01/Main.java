@@ -1,3 +1,5 @@
+package ru.mirea.it.ivbo01;
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Main {
@@ -8,7 +10,6 @@ public class Main {
             return  fact(a-1) *a;
     }
     public static void main(String[] args) {
-
 
         int[] midsum =  {1,2,5,6,3,7};
         int sum = 0;
