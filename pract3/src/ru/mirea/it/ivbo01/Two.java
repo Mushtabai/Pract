@@ -14,7 +14,6 @@ public class Two {
                 "Доллар - 1    " + "Евро - 2    " + "Юань - 3    " + "Фунт - 3    ");
         int choice2 = scanner.nextInt();
         double res = X[choice1 -1]*val[choice2-1];
-        Locale locFR = new Locale("fr");
         if(choice2 == 1) {
             NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.US);
             System.out.println(numberFormat.format(res));
