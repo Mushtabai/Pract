@@ -1,4 +1,4 @@
-package ru.mirea.pract2;
+package ru.mirea.it.ivbo01;
 import  java.lang.*;
 
 public class A_TestAuthor {

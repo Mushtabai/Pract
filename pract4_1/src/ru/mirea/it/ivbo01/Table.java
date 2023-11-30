@@ -1,0 +1,17 @@
+package ru.mirea.it.ivbo01;
+
+class Table extends Furniture {
+    private int numberOfSeats;
+
+    public Table(String name, double price, int numberOfSeats) {
+        super(name, price);
+        this.numberOfSeats = numberOfSeats;
+    }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("Стол: " + getName());
+        System.out.println("Цена: $" + getPrice());
+        System.out.println("Количество мест: " + numberOfSeats);
+    }
+}

@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pract 14/Pract 14.iml" filepath="$PROJECT_DIR$/Pract 14/Pract 14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract11/Pract11.iml" filepath="$PROJECT_DIR$/Pract11/Pract11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract12/Pract12.iml" filepath="$PROJECT_DIR$/Pract12/Pract12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract13/Pract13.iml" filepath="$PROJECT_DIR$/Pract13/Pract13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract15/Pract15.iml" filepath="$PROJECT_DIR$/Pract15/Pract15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract16/Pract16.iml" filepath="$PROJECT_DIR$/Pract16/Pract16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract17/Pract17.iml" filepath="$PROJECT_DIR$/Pract17/Pract17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract5/Pract5.iml" filepath="$PROJECT_DIR$/Pract5/Pract5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract6/Pract6.iml" filepath="$PROJECT_DIR$/Pract6/Pract6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract7/Pract7.iml" filepath="$PROJECT_DIR$/Pract7/Pract7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract8/Pract8.iml" filepath="$PROJECT_DIR$/Pract8/Pract8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pract9_10/Pract9.iml" filepath="$PROJECT_DIR$/Pract9_10/Pract9.iml" />
       <module fileurl="file://$PROJECT_DIR$/pract1/pract1.iml" filepath="$PROJECT_DIR$/pract1/pract1.iml" />
       <module fileurl="file://$PROJECT_DIR$/pract2/pract2.iml" filepath="$PROJECT_DIR$/pract2/pract2.iml" />
       <module fileurl="file://$PROJECT_DIR$/pract3/pract3.iml" filepath="$PROJECT_DIR$/pract3/pract3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pract4/pract4.iml" filepath="$PROJECT_DIR$/pract4/pract4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pract4_1/pract4_1.iml" filepath="$PROJECT_DIR$/pract4_1/pract4_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
     </modules>
   </component>

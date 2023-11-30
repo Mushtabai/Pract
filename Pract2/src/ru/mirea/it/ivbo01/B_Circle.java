@@ -1,4 +1,4 @@
-package ru.mirea.pract2;
+package ru.mirea.it.ivbo01;
 
 public class B_Circle {
     private B_Point p;

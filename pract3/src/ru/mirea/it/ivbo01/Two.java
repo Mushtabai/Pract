@@ -11,24 +11,20 @@ public class Two {
         int choice1 = scanner.nextInt();
         double val[] = {1, 0.93,7.28,1.23};
         System.out.println("Выберите валюту из списка,указав его число: "+
-                "Доллар - 1    " + "Евро - 2    " + "Юань - 3    " + "Фунт - 3    ");
+                "Доллар - 1    " + "Евро - 2    " + "Юань - 3    " + "Фунт - 4    ");
         int choice2 = scanner.nextInt();
         double res = X[choice1 -1]*val[choice2-1];
-        if(choice2 == 1) {
-            NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.US);
-            System.out.println(numberFormat.format(res));
-        } else if (choice2 == 2) {
-            NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.FRANCE);
-            System.out.println(numberFormat.format(res));
-        } else if (choice2 == 3) {
-            NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.CHINA);
-            System.out.println(numberFormat.format(res));
+
+        NumberFormat numberFormat;
+
+        switch (choice2) {
+            case 1 -> numberFormat = NumberFormat.getCurrencyInstance(Locale.US);
+            case 2 -> numberFormat = NumberFormat.getCurrencyInstance(Locale.FRANCE);
+            case 3 -> numberFormat = NumberFormat.getCurrencyInstance(Locale.CHINA);
+            default -> numberFormat = NumberFormat.getCurrencyInstance(Locale.UK);
         }
-        else
-        {
-            NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.UK);
-            System.out.println(numberFormat.format(res));
-        }
+
+        System.out.println(numberFormat.format(res));
 
     }
 }
