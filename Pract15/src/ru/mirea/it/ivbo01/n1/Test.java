@@ -3,6 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.math.BigDecimal;
 
 public class Test {
     public static void main(String[] args) {
@@ -98,23 +99,23 @@ public class Test {
             JOptionPane.showMessageDialog(null, "Введите числа в оба поля");
         } else {
             try {
-                double firstNumber = Double.parseDouble(firstText);
-                double secondNumber = Double.parseDouble(secondText);
+                BigDecimal firstNumber = BigDecimal.valueOf(Double.parseDouble(firstText));
+                BigDecimal secondNumber = BigDecimal.valueOf(Double.parseDouble(secondText));
 
-                double result = 0;
+                BigDecimal result = BigDecimal.ZERO;
                 switch (operation) {
                     case "+":
-                        result = firstNumber + secondNumber;
+                        result = firstNumber.add(secondNumber);
                         break;
                     case "-":
-                        result = firstNumber - secondNumber;
+                        result = firstNumber.subtract(secondNumber);
                         break;
                     case "*":
-                        result = firstNumber * secondNumber;
+                        result = firstNumber.multiply( secondNumber);
                         break;
                     case "/":
-                        if (secondNumber != 0) {
-                            result = firstNumber / secondNumber;
+                        if (!secondNumber.equals(BigDecimal.ZERO)) {
+                            result = firstNumber.divide( secondNumber);
                         } else {
                             JOptionPane.showMessageDialog(null, "Деление на ноль невозможно");
                             break;
@@ -122,7 +123,7 @@ public class Test {
                         break;
                 }
 
-                JOptionPane.showMessageDialog(null, "Результат: " + result);
+                JOptionPane.showMessageDialog(null, "Результат: " + result.toString());
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(null, "Введены неверные числа");
             }

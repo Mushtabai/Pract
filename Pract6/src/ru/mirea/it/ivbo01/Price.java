@@ -42,13 +42,6 @@ public class Price {
     }
 
     public static void main(String[] args) {
-        Priceable a = new Shoes();
-        Priceable b = new Price.Telephone();
-        Priceable c = new Laptop();
-        Priceable d = new Car();
-        a.getPrice();
-        b.getPrice();
-        c.getPrice();
-        d.getPrice();
+
     }
 }
